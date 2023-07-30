@@ -1,0 +1,250 @@
+body 
+{
+    background-color: rgb(104, 137, 214);
+}
+#header{
+border: 2px solid black;
+height: 150px;
+width: 1200px;
+margin: auto;
+background-image: url("ucb-logo-mo.png");
+}
+#Menu{
+    border: 2px solid black;
+    height: 40px;
+    }
+#Corps{
+        border: 2px solid black;
+        height: 1900px;
+        }
+#Footer{
+            border: 0px solid black;
+            height: 200px;
+            background-color:royalblue;
+
+            }
+            @charset "utf-8";
+            /* CSS Document */
+            
+            
+            body {
+                
+            
+            /* for pull-down menu to work in IE6*/
+            behavior:url("csshover2.htc");
+            
+            }
+            
+            /* pull-down mainmenu css */
+            .mainmenu{
+                float: left;
+                width: 100%;
+                padding: 0;
+            }
+            .mainmenu ul {
+                float: left;
+                width: 100%;
+                list-style: none;
+                line-height: 1;
+                color:#FFFF00;
+                background: #000080;
+                padding: 0;
+                border: solid #A0A0A4;
+                border-width: 1px 0;
+                margin: 0 0 1em 0;
+            }
+            
+            .mainmenu a, .mainmenu a:visited {
+                display: block;
+            font-family:Arial, Helvetica, sans-serif;font-size:0.8em;font-weight:bold;font-style:normal;text-decoration:underline;
+                color: #FFFF00;
+                text-decoration: none;
+                padding: 1em 1em;
+            }
+            .mainmenu ul ul a{
+                width:100%;
+                height:100%;
+            }
+            .mainmenu ul a{
+                width:1%;
+            }
+            
+            
+            .mainmenu li  {
+                float: left;
+                margin:0;
+                padding:0;
+            }
+            
+            .mainmenu ul li {float:left; position:relative;  }
+            .mainmenu ul li a {white-space:nowrap;}
+                
+            .mainmenu li ul {
+                position: absolute;
+                left: -999em;
+                height: auto;
+                width:15em;	
+                
+                background: #000080;
+                font-weight: normal;
+                border-width: 1px;
+                margin: 0;
+            }
+            
+            .mainmenu li li {
+                width:15em ;
+            }
+            
+            .mainmenu li li a{
+                width:13em ;
+            }
+            
+            .mainmenu li ul  {
+                margin: 0;
+            }
+            .mainmenu li ul ul {
+                margin: -2.8em 0 0 13.5em;
+            }
+            .ul_ch, 
+            .mainmenu li:hover ul ul,
+            .mainmenu li li:hover ul ul,
+            .mainmenu li li li:hover ul ul,
+            .mainmenu li li li li:hover ul ul,
+            .mainmenu li li li li li:hover ul ul
+            {
+                left: -999em;
+            }
+            .mainmenu li:hover ul,
+            .mainmenu li li:hover ul,
+            .mainmenu li li li:hover ul,
+            .mainmenu li li li li:hover ul,
+            .mainmenu li li li li li:hover ul
+            {
+                left: auto;
+            }
+            .mainmenu li:hover>ul.ul_ch   
+            {
+                left: auto;
+            }
+            
+            .mainmenu li:hover{
+                background: #FF0000;
+            }
+            
+            .mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
+                color:#FFFF00;
+            }
+            .mainmenu li:hover li a, .mainmenu li li:hover li a, 
+            .mainmenu li li li:hover li a, .mainmenu li li li li:hover li a,
+            .mainmenu li:hover li a:visited, .mainmenu li li:hover li a:visited, 
+            .mainmenu li li li:hover li a:visited, .mainmenu li li li li:hover li a:visited
+            {
+                color:#FFFF00;
+            }
+            .mainmenu li li:hover, .mainmenu li li li:hover, 
+            .mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
+            {
+                background: #B90000;
+                z-index:9999;
+            }
+            .mainmenu li li:hover a,.mainmenu li li li:hover a, 
+            .mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
+            {
+                color: #FFFF00; 
+            }
+            
+            .mainmenu ul ul a, .mainmenu ul ul a:visited,
+            .mainmenu li li a, .mainmenu li li a:visited
+            {
+                color: #FFFF00;
+            }
+            .mainmenu ul ul a:hover,
+            .mainmenu li:hover li:hover a,.mainmenu li:hover li:hover a:visited ,
+            .mainmenu li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover a:visited,
+            .mainmenu li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover a:visited ,
+            .mainmenu li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+            .mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited{
+                color: #FFFF00;
+            }
+            .mainmenu li:hover li:hover li a,.mainmenu li:hover li:hover li a:visited ,
+            .mainmenu li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li a:visited,
+            .mainmenu li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li a:visited,
+            .mainmenu li:hover li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited{
+                color: #FFFF00;
+            }
+            
+            
+            /* end of mainmenu css */
+            
+            #Haut{
+                width: 1327px;
+                height: 400px;
+            }
+            #Hautg{
+                border: 2px solid white;
+                width: 1800px;
+                height: 510px;
+            }
+            #Hautd{
+                border: 2px solid rgb(58, 161, 245);
+                width: 455px;
+                height: 400px;
+                margin-left: 885px;
+                margin-top: -404px;
+                background-color:rgb(211, 94, 94);
+            }
+            .titre{
+                background-color: red;
+                color: rgb(57, 195, 250);
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 30px;
+                font-weight: bold;
+                background-color: #140f14;
+            }
+            .titre1{
+                background-color:rgb(12, 12, 20);
+                color: rgba(248, 237, 242, 0.151);
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 25px;
+                font-weight: bold;
+                margin-top: 15px;
+                border-radius: 10px 10px 10px 10px;
+            }
+            #Basg{
+                border: 2px solid rgb(214, 241, 90);
+                width: 800px;
+                height: 880px;
+                margin-top: 8px;
+            }
+            #Basm{
+                border: 2px solid red;
+                width: 320px;
+                height: 380px;
+                margin-top:-382px;
+                margin-left: 600px
+            }
+            #Basdh{
+                border: 2px solid rgb(53, 18, 18);
+                width: 400px;
+                height: 185px;
+                margin-top:-387px;
+                margin-left: 940px;
+            }
+            #Basdb{
+                border: 2px burlywood;
+                width: 400px;
+                height: 185px;
+                margin-top:5px;
+                margin-left: 940px;
+                background-color: rgb(#FFFF);
+            }
+            .act1{
+                float: left;
+            }
+            .pied{
+                display: inline-block;
+                border: 0px solid rgb(219, 252, 181);
+                width: 300px;
+                text-align: justify;
+            }
